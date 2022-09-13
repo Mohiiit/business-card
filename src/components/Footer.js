@@ -6,11 +6,11 @@ import linkedin from '../logos/linkedin.svg'
 
 const Footer = () => {
     return (
-        <div className="flex flex-row">
-            <img className="basis-1/4 w-10 h-10" src={instagram} />
-            <img className="basis-1/4 w-10 h-10" src={github} />
-            <img className="basis-1/4 w-10 h-10" src={twitter} />
-            <img className="basis-1/4 w-10 h-10" src={linkedin} />
+        <div className="flex justify-evenly p-4 bg-slate-500">
+            <img className="w-10 h-10" src={instagram} />
+            <img className="w-10 h-10" src={github} />
+            <img className="w-10 h-10" src={twitter} />
+            <img className="w-10 h-10" src={linkedin} />
         </div>   
     )
 }
