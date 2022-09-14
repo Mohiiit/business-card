@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 import DarkBusinessCard from './components/DarkBusinessCard';
 
 function App() {
   return (
-    <div className="App w-1/2 m-64">
+    <div className="bg-red-300 min-h-screen min-w-screen flex flex-no-wrap overflow-x-auto scrolling-touch items-start">
+      <DarkBusinessCard />
+      <DarkBusinessCard />
+      <DarkBusinessCard />
+      <DarkBusinessCard />
       <DarkBusinessCard />
     </div>
   );

@@ -3,7 +3,7 @@ import logo from "./../logo.svg";
 
 const Name = () => {
     return (
-        <div className="font-sans">
+        <div className="text-center font-mono">
             <img src={logo} />
             <div className="text-3xl text-white"> Mohit Dhattarwal</div>
             <div className="text-lg text-skin"> Learning Something</div>
