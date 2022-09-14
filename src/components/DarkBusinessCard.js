@@ -6,7 +6,7 @@ import About from "./About";
 
 const DarkBusinessCard = () => {
     return (
-        <div className="flex-none m-8 w-1/2 h-1/2 border-4 border-black  bg-gray-700">
+        <div className="flex-none m-8 w-1/4 h-1/4 border-4 border-black  bg-gray-700">
             <Name />
             <Email />
             <About />
